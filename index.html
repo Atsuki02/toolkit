@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TODO-List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="todo_list">
+      <h1>TODO-List</h1>
+      <form>
+        <input class="task_value" type="text" />
+        <button class="task_submit" type="button">Add Task</button>
+        <button class="task_removeAll" type="button">Delete All Task</button>
+        <button class="select" type="button" id="select">Select</button>
+        <button class="select_delete" type="button">Delete</button>
+      </form>
+      <div class="table-wrapper">
+        <div class="table table_current_task">
+          <h2>Current Tasks</h2>
+          <ul class="task_list"></ul>
+        </div>
+        <div class="table table_finished_task">
+          <h2>Finished Tasks</h2>
+          <ul class="finished_list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
